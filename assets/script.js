@@ -1,0 +1,1 @@
+const modalEl = document.getElementById("modal");
