@@ -84,17 +84,19 @@ body {
 }
 
 #footer {
-  text-align: center;
+  margin-top: 80px;
 }
 
 /* Rules Modal */
 #modalBtn {
   float: right;
-  margin-right: 5vw;
+  margin-right: 3vw;
+  border-radius: 0.5em;
+  width: 10%;
 }
 
 .modal {
-  /* display: none; */
+  display: none;
   height: 40vh;
   width: 25vw;
   background-color: hsl(0, 0%, 100%);
