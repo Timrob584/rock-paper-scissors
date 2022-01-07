@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Score Container */
 .main-container {
   border: solid hsl(217, 16%, 45%) 2px;
   border-radius: 0.5em;
@@ -30,7 +31,7 @@ body {
 
 .score-container {
   background-color: hsl(0, 0%, 100%);
-  margin: 20px 0 0 125px;
+  margin: 20px 0 0 175px;
   text-align: center;
   width: 50%;
   height: 75%;
@@ -43,4 +44,37 @@ body {
 
 #score-span {
   color: hsl(229, 25%, 31%);
+}
+
+/* Rock, Paper, Scissors Diagram */
+.diagram-container {
+  width: 22%;
+  margin: 0 auto;
+  margin-top: 10vh;
+  text-align: center;
+  background-image: url(../images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.svg {
+  margin-top: 3vh;
+  padding: 25px;
+  border: solid 15px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+#paper {
+  float: left;
+  border-color: hsl(229, 48%, 50%);
+}
+
+#scissors {
+  float: right;
+  border-color: hsl(46, 84%, 50%);
+}
+#rock {
+  margin-top: 30vh;
+  border-color: hsl(2, 78%, 58%);
 }
