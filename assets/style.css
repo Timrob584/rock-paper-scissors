@@ -11,7 +11,7 @@ body {
   width: 40%;
   height: 17vh;
   margin: 0 auto;
-  margin-top: 3vh;
+  margin-top: 5vh;
   color: hsl(0, 0%, 100%);
 }
 
@@ -47,18 +47,23 @@ body {
 }
 
 /* Rock, Paper, Scissors Diagram */
-.diagram-container {
-  width: 22%;
-  margin: 0 auto;
-  margin-top: 10vh;
-  text-align: center;
+
+.content {
   background-image: url(../images/bg-triangle.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.diagram-container {
+  width: 22%;
+  height: 65vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  text-align: center;
+}
+
 .svg {
-  margin-top: 3vh;
+  margin-top: 11vh;
   padding: 25px;
   border: solid 15px;
   border-radius: 50%;
@@ -75,6 +80,10 @@ body {
   border-color: hsl(46, 84%, 50%);
 }
 #rock {
-  margin-top: 30vh;
+  margin-top: 38vh;
   border-color: hsl(2, 78%, 58%);
+}
+
+#footer {
+  text-align: center;
 }
